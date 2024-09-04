@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lori Neville - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: teal;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        h1, h2 {
+            color: green;
+        }
+        footer {
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lori Neville</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Lori Neville, a passionate individual with a keen interest in [Your Interests or Profession]. I enjoy [Briefly Describe Your Activities or Achievements]. With a background in [Your Background or Expertise], I am always eager to learn and explore new opportunities.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Welcome to my portfolio section! Here, you can find some of my recent work and projects:</p>
+        <ul>
+            <li><strong>Project 1:</strong> [Brief Description of Project 1]</li>
+            <li><strong>Project 2:</strong> [Brief Description of Project 2]</li>
+            <li><strong>Project 3:</strong> [Brief Description of Project 3]</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>If you'd like to get in touch with me, you can reach me via email at <a href="mailto:lori.neville@example.com">lori.neville@example.com</a>. You can also connect with me on [LinkedIn/Twitter/etc.] at <a href="https://www.linkedin.com/in/yourprofile" target="_blank">your LinkedIn profile</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lori Neville. All rights reserved.</p>
+    </footer>
+</body>
+</html>
